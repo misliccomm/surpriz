@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sürpriiizzzz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #211111;
+      font-family: 'Quicksand', sans-serif;
+      color: #fceaea;
+      margin: 0;
+      padding: 40px 20px;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      color: #8d1010;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      margin-bottom: 10px;
+    }
+
+    .divider {
+      width: 60px;
+      height: 2px;
+      background-color: #1e0a0a;
+      margin: 0 auto 30px auto;
+      position: relative;
+    }
+
+    .divider::after {
+      content: "❤️";
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 18px;
+    }
+
+    .top-photos {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    .top-photos img,
+    .side-photos img {
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.4s, box-shadow 0.4s;
+      object-fit: cover;
+    }
+
+    .top-photos img {
+      width: 300px;
+      height: 400px;
+    }
+
+    .top-photos img:hover,
+    .side-photos img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+    }
+
+    .main-content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    .side-photos {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .side-photos img {
+      width: 140px;
+      height: 190px;
+    }
+
+    .letter {
+      max-width: 600px;
+      background: url('https://www.transparenttextures.com/patterns/paper-fibers.png') #652424;
+      padding: 35px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(40, 23, 23, 0.6);
+      text-align: left;
+      color: #360303;
+      font-size: 18px;
+      line-height: 1.8;
+      white-space: pre-line;
+    }
+
+    .video-container {
+      margin: 60px 0 30px 0;
+      text-align: center;
+    }
+
+    .music {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .music iframe {
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    /* Kalp animasyonu */
+    .hearts {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    .heart {
+      position: absolute;
+      animation: float 8s linear infinite;
+      color: #ff8fa3;
+      font-size: 18px;
+      opacity: 0.8;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.5);
+        opacity: 0;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .main-content {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .side-photos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .side-photos img {
+        width: 100px;
+        height: 130px;
+      }
+
+      .top-photos img {
+        width: 200px;
+        height: 270px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hearts">
+    <!-- Kalpler -->
+    <div class="heart" style="left:10%;">❤️</div>
+    <div class="heart" style="left:30%;">💗</div>
+    <div class="heart" style="left:50%;">💕</div>
+    <div class="heart" style="left:70%;">💖</div>
+    <div class="heart" style="left:90%;">❤️</div>
+  </div>
+
+  <h1>filmin sadece bu bölümü bitti ve ben yine de bizi görebilmek için son 7 dakikayı bekledim, çünkü diğer bölümlerdeki bizi çok merak ediyorum.</h1>
+  <div class="divider"></div>
+
+  <div class="top-photos">
+    <img src="img/foto2.jpg" alt="Anı 1">
+    <img src="img/foto3.jpg" alt="Anı 2">
+  </div>
+
+  <div class="main-content">
+    <div class="side-photos">
+      <img src="img/foto4.jpg" alt="Anı 3">
+      <img src="img/foto5.jpg" alt="Anı 4">
+      <img src="img/foto6.jpg" alt="Anı 5">
+    </div>
+
+    <div class="letter">
+      canım, kelimelerim bile yetmeyecek bunları anlatmaya muhtemelen. 
+Ama zaten bunları sık sık duyurmak için elimden geleni yapmaya çalıştım. 
+Çünkü varken de yokken de ben iyi hissediyorsam senin için, 
+bunları duyman ve bilmen gerekiyor demektir.
+
+Taa bundan seneler öncesindeki ben ve sana gidiyorum şimdi, ne kadar da küçüğüz baksana. 
+O asıl günü hiç aklımdan çıkaramıyorum, birbirimizi daha iyi tanıdığımız o güne, 
+iyi ki de o gün ayaküstü duymuşum senden onları, sen de benden. 
+
+O kadar şanslı biriyim ki, arkamda hep duracak senin gibi bir dostum oldu. 
+Kimse olmasa da sen vardın, sen yokken de sen vardın. 
+Seni hep çok sevdim. 
+
+Sohbetlerimiz, gülmelerimiz, kızmalarımız, üzülmelerimiz… 
+En çok da birlikte yürüdüğümüz yollar. 
+En zor zamanımda asla unutamayacağım biri oldun benim için. 
+Sana sadece erkek arkadaş diyemiyorum, daha da fazlasın benim için.
+
+Gece yarılarına kadar konuşmalarımızın verdiği rahatlık, 
+ve her gece uyurken senin oralarda bir yerlerde olduğunun huzuruyla uyumak benim için hep paha biçilemez oldu.
+
+Teşekkür ederim her şey için, bana yoldaş olduğun için. 
+Senden iyisi de asla yok, merak etme. 
+Teksin ve bendesin, dünyanın en şanslı kızı oluverdik bir anda.
+
+Bundan sonraki gecelerde de hep senin oralarda olduğunu bilerek uyuyacağım ve buna şükrediyorum. 
+Ve sen de bunu yap çünkü her zaman senin için burada olacağım. 
+Senin beğendiğin kekleri ve kısırları yapacağım. 
+
+Seni bu mutlu gününde yalnız bıraktığımı asla düşünme. 
+Kalbimle hep senin elinden tutuyorum. 
+Bunu hissetmen için de sana bunu hazırlamak istedim. 
+
+Bundan sonraki adım attığın her yol sana iyilik ve güzellik getirsin, 
+ve tahmin ettiğinden bile iyi yerlere götürsün. 
+Ve mümkünse benim olmadığım yerlere de çok çıkmasın.
+
+İyi ki varsın ve iyi ki de hep olacaksın. 
+Benim bir numaralı ve dünyanın en yakışıklı psikoloğum… 
+Seni çok seviyorum ❤️
+    </div>
+
+    <div class="side-photos">
+      <img src="img/foto7.jpg" alt="Anı 6">
+      <img src="img/foto8.jpg" alt="Anı 7">
+      <img src="img/foto9.jpg" alt="Anı 8">
+    </div>
+  </div>
+
+  
+
+  <div class="music">
+    <p>🎧 Küçük bir şarkı da bıraktım:</p>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3t0tWO3jsrvHTCl1FsqkZf?utm_source=generator" width="300" height="80" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+</body>
+</html>
